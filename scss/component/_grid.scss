@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
@@ -27,14 +20,17 @@
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
-  @each $theme, $color in $themes{
-    .col-#{$theme} {
-      color:$color;
-    }
-  }
+
+
 // try to figure out the column color
 }
 
+
+@each $theme, $color in $themes{
+  .theme.col-#{$theme} {
+    background-color:$color;
+  }
+}
 
 // .theme.col-1 {
 //   background-color: $lilacbush;

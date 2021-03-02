@@ -1,0 +1,9 @@
+// button colors
+@mixin names($map){
+  @each $name, $color in $map{
+    &#{$name}{
+      background-color:$color;
+    }
+  }
+    
+}

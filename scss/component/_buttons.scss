@@ -13,25 +13,35 @@
     &:hover{
       color:lighten($coral, 20%);
     }
+    @include names($names);
   }
+
   
-  .default {
-    background-color: $mayablue;
-  }
+
+
   
-  .error {
-    background-color: $froly;
-  }
+  // @each $name, $color in $names{
+  //   .#{$name}{
+  //     background-color:$color;
+  //   }
+  // }
+  // .default {
+  //   background-color: $mayablue;
+  // }
   
-  .info {
-    background-color: $lilacbush;
-  }
+  // .error {
+  //   background-color: $froly;
+  // }
   
-  .success {
-    background-color: $emerald;
-  }
+  // .info {
+  //   background-color: $lilacbush;
+  // }
   
-  .warning {
-    background-color: $coral;
-  }
+  // .success {
+  //   background-color: $emerald;
+  // }
+  
+  // .warning {
+  //   background-color: $coral;
+  // }
   
