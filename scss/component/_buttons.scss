@@ -10,6 +10,7 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    // ====new added====
     &:hover{
       color:lighten($coral, 20%);
     }
@@ -19,12 +20,14 @@
   
 
 
-  
+  // ====loop solution====
   // @each $name, $color in $names{
   //   .#{$name}{
   //     background-color:$color;
   //   }
   // }
+
+  // ====original code====
   // .default {
   //   background-color: $mayablue;
   // }

@@ -1,9 +1,8 @@
-// button colors
+// button colors====using mixin to save repeat colors
 @mixin names($map){
   @each $name, $color in $map{
-    &#{$name}{
+    &.#{$name}{
       background-color:$color;
     }
   }
-    
 }

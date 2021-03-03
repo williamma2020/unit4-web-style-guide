@@ -20,18 +20,16 @@
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
-
-
-// try to figure out the column color
 }
 
-
+// ====using loop====
 @each $theme, $color in $themes{
   .theme.col-#{$theme} {
     background-color:$color;
   }
 }
 
+// ===original codes====
 // .theme.col-1 {
 //   background-color: $lilacbush;
 // }

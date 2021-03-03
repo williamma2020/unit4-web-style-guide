@@ -397,19 +397,19 @@ a {
 .btn:hover {
   color: #fec9bb;
 }
-.btndefault {
+.btn.default {
   background-color: #51ddfc;
 }
-.btnerror {
+.btn.error {
   background-color: #e4757a;
 }
-.btninfo {
+.btn.info {
   background-color: #927bc1;
 }
-.btnsuccess {
+.btn.success {
   background-color: #63cc82;
 }
-.btnwarning {
+.btn.warning {
   background-color: #fd7856;
 }
 
