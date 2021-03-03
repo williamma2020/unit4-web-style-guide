@@ -11,12 +11,12 @@
     text-transform: uppercase;
     border-radius: 5px;
     // ====new added====
-    &:hover{
-      color:lighten($coral, 20%);
-    }
+    // &:hover{
+    //   color:lighten($coral, 100%);
+    // }
     @include names($names);
   }
-
+  
   
 
 
