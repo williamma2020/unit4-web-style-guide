@@ -10,19 +10,25 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    
     // ====new added====
-    // &:hover{
-    //   color:lighten($coral, 100%);
-    // }
-    @include names($names);
+    @include btn-bg($btn-bg);
   }
-  
-  
 
+@each $btn, $color in $btn-bg{
+  .#{btn}:hover{
+    background-color:lighten($color,15%);
+    transition:background-color 0.5s ease-in;
+  }
+}
+
+
+  
+  
 
   // ====loop solution====
-  // @each $name, $color in $names{
-  //   .#{$name}{
+  // @each $btn, $color in $btn-bg{
+  //   .#{$btn}{
   //     background-color:$color;
   //   }
   // }

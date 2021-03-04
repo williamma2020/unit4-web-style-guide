@@ -1,7 +1,7 @@
 // button colors====using mixin to save repeat colors
-@mixin names($map){
-  @each $name, $color in $map{
-    &.#{$name}{
+@mixin btn-bg($map){
+  @each $btn, $color in $map{
+    &.#{$btn}{
       background-color:$color;
     }
   }
